@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>amazon img</title>
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="zoomsl.js"></script>
+	<script src="zoomsl.min.js"></script>
+</head>
+<body>
+	<img src="img2.jpeg" alt="" srcset="" class='big_img' width="400" height="300">
+	<img src="sky.jpg" alt="" srcset="" class='big_img' width="400" height="300">
+	
+</body>
+	<script>
+		$(document).ready(function(){
+			$('.big_img').imagezoomsl({
+				zoomrange :[10 ,10]
+			});
+		});
+	</script>
+</html>
